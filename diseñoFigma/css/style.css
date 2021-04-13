@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+}
+
+div{
+    position: relative;
+}
+body{
+    border: solid gray;
+    position: absolute;
+    width: 2056px;
+    height: 5264px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+.rectangle{
+    position: absolute;
+    width: 2056px;
+    height: 61px;
+    left: 0px;
+    top: 0px;
+    background-color: #1CD1B0;
+}
+.letra1{
+    position: absolute;
+    width: 354px;
+    height: 56px;
+    left: 67px;
+    top: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+.letra2{
+    position: absolute;
+    width: 602px;
+    height: 84px;
+    left: 67px;
+    top: 99px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 84px;
+    color: #FFFFFF;
+}
+
+.rectangle1{
+    position: absolute;
+    width: 2056px;
+    height: 162px;
+    left: 0px;
+    top: 60px;
+    background: #00669F; 
+    box-shadow: 0px 10px 7px   
+}
+
+.portada{
+    position: absolute;
+    width: 806px;
+    height: 555px;
+    left: 625px;
+    background: #C4C4C4;
+    border-radius: 67px;
+}
+.portada-batman{
+    top: 269px;
+    background: url(../img/bg-batman.jpg);
+    background-size: cover;
+}
+.portada-maravilla{
+    top: 1834px;
+    background: url(../img/bg-wonderw.jpg);
+    background-size: cover;
+}
+.portada-superman{
+    top: 3399px;
+    background: url(../img/bg-superman.jpg);
+    background-size: cover;
+}
+
+.fondo{
+    position: absolute;
+    width: 805px;
+    height: 872px;
+    left: 626px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.fondo-batman{
+    top: 762px;
+}
+.fondo-maravilla{
+    top: 2327px;
+}
+.fondo-superman{
+    top: 3892px;
+}
+
+.elipse{
+    position: absolute;
+    width: 352px;
+    height: 352px;
+    left: 852px;
+    border-radius: 50%;;
+    background: #C4C4C4;
+    background: url(../img/batman.jpg);
+    background-position: top center;
+}
+.elipse-batman{
+    top: 572px;
+    background: url(../img/batman.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.elipse-maravilla{
+    top: 2137px;
+    background: url(../img/wonderw.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.elipse-superman{
+    top: 3702px;
+    background: url(../img/superman.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nombre-superheroe{
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #000000;
+}
+.nombre-batman{
+    left: 886px;
+    width: 284px;
+    top: 956px;
+}
+.nombre-maravilla{
+    left: 708px;
+    width: 643px;
+    top: 2521px;
+}
+.nombre-superman{
+    left: 839px;
+    width: 387px;
+    top: 4086px;
+}
+
+p{
+    position: absolute;
+    width: 718px;
+    height: 348px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+}
+.p-batman{
+    left: 669px;
+    top: 1072px;
+}
+.p-maravilla{
+    left: 670px;
+    top: 2637px;
+}
+.p-superman{
+    left: 670px;
+    top: 4202px;
+}
+
+
+.boton{
+    position: absolute;
+    width: 346px;
+    height: 114px;
+    left: 856px;
+    background: #00669F;
+    border-radius: 7px;
+}
+.boton-batman{
+    top: 1452px;
+
+}
+.boton-maravilla{
+    top: 3017px;
+}
+.boton-superman{
+    top: 4582px;
+}
+
+.texto-boton{
+    position: absolute;
+    width: 133px;
+    height: 42px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color:white;
+}
+.texto-boton-batman{
+    left: 962px;
+    top: 1488px;
+}
+.texto-boton-maravilla{
+    top: 3053px;
+    left: 963px;
+}
+.texto-boton-superman{
+    top: 4618px;
+    left: 963px;
+}
+
+footer{
+    position: absolute;
+    width: 2056px;
+    height: 162px;
+    left: 0px;
+    top: 5102px;
+    background: #00669F; 
+}
+.texto-footer{
+    position: absolute;
+    width: 758px;
+    height: 42px;
+    left: 648px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: white;
+    bottom: 25%;
+
+}
+.img-github{
+    position: absolute;
+    left: 84.14%;
+    right: 3.79%;
+    bottom: 25%;
+}
+.fas{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 6%;
+    left: 655px;
+    font-size: 65px;
+    color: red;
+}
+
+.fas-batman{
+    top: 306px;
+}
+.fas-maravilla{
+    top: 1870px;
+}
+.fas-superman{
+    top: 3435px;
+}
+
