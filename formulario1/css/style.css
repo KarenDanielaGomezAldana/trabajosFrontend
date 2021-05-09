@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+aside{
+    background: #1CD1B0;
+    width: 1440px;
+    height: 23px;
+    left: 0px;
+    top: 0px;
+}
+aside p{
+    top: 2px;
+    margin-left: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+header{
+    position: absolute;
+    top: 38px;
+    width: 1440px;
+    height: 80px;
+    background-color: #00669F;
+}
+h2{
+    position: absolute;
+    left: 129px;
+    top: 0px;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.login{
+    margin: 230px 410px;
+    max-width: 400px;
+    padding: 20px;
+}
+.login h1{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 72px;
+    color: #333333;
+}
+form input, form textarea, form select{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    width: 620px;
+    height: 60px;
+}
+input[type= submit]{
+    width: 614.25px;
+    height: 53.79px;
+    background-color:#1CD1B0;
+    border-radius: 23.011px;
+    margin-top: 64px;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+}
+input::placeholder{
+    color:#000000;
+}
+input:focus::placeholder{
+    color:transparent;
+}
+a{
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21.4769px;
+    line-height: 28px;
+    text-align: center;
+    color: #00669F;
+    text-decoration: none;
+    margin-left: 85px;
+}
+footer{
+    position: absolute;
+    background-color: #00669F;
+    width: 1440px;
+    height: 61px;
+    bottom: 0;
+    top: 1055px;
+}
+.footer p{
+    margin-left: 551px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFF9F9;
+}
